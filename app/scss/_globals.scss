@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    line-height: .13rem;
+}
+a, a:visited, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+//FLEX
+.flex {
+    display: flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+//BUTTONS
+button, .button{
+    padding: 1.6rem 3rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, $limeGreen, $brightCyan);
+    border: 0;
+    font-weight: 700;
+    color: $white;
+}
+
+//Visibility
+.hide-for-mobile {
+    //hide for tablet and mobile
+
+}
+
+.hide-for-desktop {
+    //hide dor desktop viewport widths
+
+}

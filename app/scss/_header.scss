@@ -1,0 +1,42 @@
+.header {
+
+    padding: 1.2rem;
+    &__logo {
+
+        img{
+
+
+        }
+    
+    }
+
+    &__menu {
+
+        > span {
+            display : block;
+            height : .2rem;
+            width : 2.6rem;
+            background-color : $darkBlue;
+            
+            &:not(:last-child) {
+                margin-bottom: .3rem;
+            }
+            
+        }
+
+    }
+
+    &__links {
+        a {
+            color: $grayishBlue;
+            font-size: $font-sm;
+        }
+        
+        
+    }
+
+    &__cta {
+        font-size: $font-sm;
+    }
+    
+}
